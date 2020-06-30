@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Maratona Full Cycle 3 Desafio 2</title>
+    <%= stylesheetTag("application.css") %>
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta name="csrf-token" content="<%= authenticity_token %>" />
+    <link rel="icon" href="http://maratona.fullcycle.com.br/static/site/img/logo-top.png">
+  </head>
+  <body style="background-color: #272727">
+
+    <div class="container">
+      <%= partial("flash.html") %>
+      <%= yield %>
+    </div>
+
+    <%= javascriptTag("application.js") %>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+name = "maratona-full-cycle-3-desafio-2"
+bin = "bin/maratona-full-cycle-3-desafio-2"
+vcs = "git"
+with_pop = true
+with_sqlite = false
+with_dep = false
+with_webpack = true
+with_nodejs = true
+with_yarn = true
+with_docker = true
+with_grifts = true
+as_web = true
+as_api = false
